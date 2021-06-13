@@ -16,6 +16,5 @@ void title()
 int main()
 {
     title();
-    //menu();
     return main();
 }
