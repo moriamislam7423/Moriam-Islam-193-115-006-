@@ -15,6 +15,8 @@ void title()
 
 int main()
 {
-    title();
-    return main();
+  system("cls"); 
+ title(); 
+ //menu();
+ return main();
 }
