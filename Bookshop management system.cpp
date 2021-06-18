@@ -1,9 +1,19 @@
 #include<bits/stdc++.h>
 using namespace std;
+struct Book
+{
+    string title;
+    string author;
+    double price;
+    string publisher;
+    int quantity;
+    int del;
+} storedbook[200000],buyed_books[200000];
+int myindex;
 void title()
 {
     cout<<"-------------------------------------\n";
-    //cout/<<"|\n";
+    cout<<"|\n";
     cout<<"|Welcome to General bookshop "<<endl;
     cout<<"|\n";
     cout<<"--------------------------------------\n";
@@ -17,6 +27,5 @@ int main()
 {
   system("cls"); 
  title(); 
- //menu();
  return main();
 }
